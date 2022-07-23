@@ -40,13 +40,10 @@ public class LoginUserTest {
   }
 
   @Test
-  public void testRegistro() throws InterruptedException {
+  public void testLogin() throws InterruptedException {
     Actions action = new Actions(driver);
 
     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-
-
-    assertTrue(driver.findElement(accountDeletedLocator).isDisplayed());
 
     wait.until(webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState").equals("complete"));
 
