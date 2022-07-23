@@ -68,7 +68,7 @@ public class RegisterUserTest {
   }
 
   @Test
-  public void testRegistro() throws InterruptedException {
+  public void testRegistro() {
     Actions action = new Actions(driver);
 
     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));

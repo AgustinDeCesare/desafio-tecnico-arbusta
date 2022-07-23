@@ -43,7 +43,7 @@ public class ContactUsTest {
   }
 
   @Test
-  public void testContaco() throws InterruptedException {
+  public void testContacto() {
     Actions action = new Actions(driver);
 
     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));

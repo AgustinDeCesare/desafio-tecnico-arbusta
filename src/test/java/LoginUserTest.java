@@ -40,7 +40,7 @@ public class LoginUserTest {
   }
 
   @Test
-  public void testLogin() throws InterruptedException {
+  public void testLogin() {
     Actions action = new Actions(driver);
 
     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
